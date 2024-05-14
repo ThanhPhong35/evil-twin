@@ -1,0 +1,84 @@
+* {
+    font-size: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.homeBtn {
+    width: 100%;
+}
+
+.homeBtn,
+table {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.table5 {
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table5Under {
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+td {
+    padding: 5px;
+    border: 2px solid black;
+    min-width: 100px;
+}
+
+.btnHome,
+.exec {
+    background-color: rgb(83, 255, 131);
+}
+
+.btnHome:hover,
+.exec:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.bottomBtn,
+.btn3 {
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
+.text-left,
+#btnradio1 {
+    text-align: left !important;
+    padding: 0;
+}
+
+.successIcon {
+    font-size: 100px !important;
+}
+
+#scanWifiContainer,
+#scanDeviceContainer {
+    min-height: 100vh !important;
+}
+
+.mobileHomeBtn {
+    z-index: 1000000;
+}
+
+@media (max-width: 768px) {
+    
+}
